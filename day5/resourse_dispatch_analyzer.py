@@ -1,4 +1,6 @@
-requests = [10, 25, 60, -3, 0, 45, 80]
+requests1 = [10, 25, 60, -3, 0, 45, 80]
+requests2 = [5, 15, 30, 55, 100, -10, 0]
+requests3 = [0, 20, 40, 70, 90, -5, 10]
 
 
 #Full Name = Naseer Hussain
@@ -13,7 +15,7 @@ high_demand = []
 invalid_requests = []
 valid_count = 0
 
-for req in requests:
+for req in requests1:
     if req < 0:
         invalid_requests.append(req)
     elif req == 0:
